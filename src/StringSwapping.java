@@ -1,5 +1,5 @@
 // Reverse  of string with the using third variable
-
+// a=mohini,b=ankur ___________Result a=ankur,b=mohini
 import java.util.Scanner;
 public class StringSwapping {
     public static void main(String args[])
