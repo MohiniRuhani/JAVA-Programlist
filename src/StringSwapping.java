@@ -1,7 +1,7 @@
 // Reverse  of string with the using third variable
 
 import java.util.Scanner;
-public class StringReverse {
+public class StringSwapping {
     public static void main(String args[])
     {
         String first,sec,temp;

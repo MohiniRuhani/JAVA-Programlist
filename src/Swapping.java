@@ -1,7 +1,7 @@
 // Reverse of two numbers with using third variable
 
 import java. util.Scanner;
-public class Reverse {
+public class Swapping {
     public static void main(String args[])
     {
         int a, b, temp;
