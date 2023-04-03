@@ -12,30 +12,36 @@ public class calculator {
         b=src.nextInt();
         src.nextLine();
 
+
         System.out.print("Enter your operation choice:");
 
         ch=src.nextLine();
 
-        if(ch=="ADD")
+        if(ch.equals("ADD"))
 
         {
             System.out.print("Addition of numbers is ;"+(a+b));
         }
-        else if(ch=="SUB")
+        else if(ch.equals("SUB"))
         {
             System.out.print("Subtraction of numbers is ;"+(a-b));
         }
-        else if(ch=="MUL")
+        else if(ch.equals("MUL"))
         {
             System.out.print("Multiplication of numbers is ;"+(a*b));
         }
-        else if(ch=="PERCENT")
+        else if(ch.equals("DIV"))
         {
             System.out.print("Percentage of number is ;"+((a/a+b)*100));
         }
-        else if(ch=="DIV")
+        else if(ch.equals("DIV"))
         {
             System.out.print("Division of numbers is ;"+(a/b));
+        }
+
+        else if(ch.equals("MOD"))
+        {
+            System.out.print("Modulas of numbers is ;"+(a%b));
         }
         else
         {
