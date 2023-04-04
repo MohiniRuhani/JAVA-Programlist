@@ -8,7 +8,7 @@ public class MultiplicationTable {
         Scanner src = new Scanner(System.in);
         n = src.nextInt();
         for (int i = 1; i <= 10; i++) {
-            mul = i * 1;
+            mul = n *i ;
             System.out.println(n + "" + "*" + "" + i + "" + "=" + "" + mul);
         }
     }
